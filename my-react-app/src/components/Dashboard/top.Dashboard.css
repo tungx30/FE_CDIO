@@ -1,0 +1,35 @@
+.container {
+    background-color: rgb(243, 244, 246);
+    padding: 2rem;
+    border-radius: 10px;
+    block-size: 100%;
+}
+.link-text{
+    /* font-size: 40px; */
+    text-decoration: none;
+    /* font-weight: 600; */
+    /* color: rgb(131, 131, 131); */
+    color: #333;
+    position: relative;
+    display: block;
+    padding: 5px 0px;
+}
+.link-text::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 30%;
+    transform: scaleX(0);
+    background-color: #9CAF88;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+.link-text:hover{
+    color: #333;
+}
+.link-text:hover::after{
+    transform: scaleX(1);
+
+}
+

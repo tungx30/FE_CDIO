@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+.sidenav {
+  width: 240px;
+  background: #011627;
+  position: fixed;
+  height: 100vh;
+  padding: 0 30px;
+  transition: all 1s;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+ul li a {
+  color: #eaecef;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+ul li a:hover,
+ul li a.active {
+  color: #4984eb;
+  background-color: #3e70c733;
+}
+
+header svg {
+  font-size: 25px;
+  margin-left: 12px;
+}

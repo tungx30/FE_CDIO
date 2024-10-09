@@ -1,0 +1,79 @@
+.container-cus {
+    width: 600px;
+    margin: 200px auto;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.30);
+    border: 1px solid black;
+
+}
+  .header-container {
+    width: 100%;
+    background: #33b5e5;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+    padding: 20px;
+    font-size: 2.0em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1.header-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .custom-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .infor {
+    font-weight: bold;
+    width: 150px; 
+    margin-right: 15px; 
+  }
+  
+  input[type="textPer"],
+  [type="numberPer"]
+ {
+    width: 370px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submitPer"] {
+    width: 170px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1px 15px 10px;
+    white-space: nowrap;
+
+  }
+  
+  button[type="submitPer"]:hover {
+    background-color: #0056b3;
+  }
+  .space{
+    margin-left: 15px;
+  } 
